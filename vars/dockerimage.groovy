@@ -1,3 +1,3 @@
 def call{
-  sh "docker build -t backend-image ."
+  sh "docker build -t backend-image -f Dockerfile"
 }
