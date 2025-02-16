@@ -1,3 +1,3 @@
-def call(){
-  sh "docker build -t backend-image -f Dockerfile ."
+def call(String name){
+  sh "docker build -t ${name} -f Dockerfile ."
 }
